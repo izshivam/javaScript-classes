@@ -36,3 +36,30 @@ const anotherId = Symbol('123')
 // console.log(typeof outsideTemp);
 // console.log(typeof myFunction);
 console.log(typeof anotherId);
+
+
+
+// *****************************************************************************//
+
+// Stack(premitive), Heap(non-premitive)
+
+let myYoutubename = "hiteshchoudharydotcom" 
+
+let anothername = "myYoutubename"
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+   email: "usergoogle.com",
+   upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
